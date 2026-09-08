@@ -1,8 +1,3 @@
---[[
-	Vaehz UI Library
-	Pro of AI
-]]
-
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -352,9 +347,9 @@ function Library:CreateWindow(cfg)
 	local YtBtn    = ctrlBtn("youtube", -74, Color3.fromRGB(255, 60, 60))
 	local DcBtn    = ctrlBtn("discord", -106, Color3.fromRGB(88, 101, 242))
 
-	local YT_LINK = "https://youtube.com/@vaehz"
-	local DC_LINK = "https://discord.gg/vaehz"
-	local DC_CODE = "vaehz"
+	local YT_LINK = "https://youtube.com/idk"
+	local DC_LINK = "https://discord.gg/idk"
+	local DC_CODE = "unknown"
 
 	YtBtn.Activated:Connect(function()
 		local copied = copyToClipboard(YT_LINK)
