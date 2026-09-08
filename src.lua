@@ -1017,4 +1017,5 @@ function Library:CreateWindow(cfg)
 	return Window
 end
 
+Library.Theme = Theme
 return Library
